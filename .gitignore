@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+WedgeFiles_Clean.zip
+WedgeZipOfZips.zip
+WedgeZipOfZips_Small.zip
+
