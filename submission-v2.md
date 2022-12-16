@@ -9,10 +9,11 @@
 
 * Files for this task: 
 <!--  List of file or files here  --> 
+[Wedge Project - Step 1.ipynb](https://github.com/SilentAccordion/BMKT670.V60-72020-Fall2022-Wedge-Project/blob/main/Wedge%20Project%20-%20Step%201.ipynb)
 
 Loads all data into GBQ data set.
 
-`File1 Name`: 
+`Wedge Project - Step 1.ipynb`: 
 Description of what this file does.
 
 <!--  Repeat for each file  --> 
@@ -23,11 +24,13 @@ Description of what this file does.
 
 * Files for this task: 
 <!--  List of file or files here  --> 
+[Wedge Project - Step 2.ipynb](https://github.com/SilentAccordion/BMKT670.V60-72020-Fall2022-Wedge-Project/blob/main/Wedge%20Project%20-%20Step%202.ipynb)
+
 
 Loads all data into GBQ data set.
 
-`File1 Name`: 
-Description of what this file does.
+`Wedge Project - Step 2.ipynb`: 
+This is a jupyter notebook file which is able to complete all requirements for Task 1. The early cells in the notebook setup general Python and GBQ requirements, including modules and setting up the GBQ client. The code unzips the zip of zips, revealing more zips, which is also decompresses. Once done, it uses some very powerful multiprocessing to handle each csv file concurrently, allowing for unbelievable process and upload speed. Each CSV is checked for headers and delimiters, feed into a Pandas dataframe and cleaned up by setting column data types. Next each dataframe is pushed to GBQ. This entire process takes under 4 minutes, when run from a virtual machine inside of Google Cloud.
 
 <!--  Repeat for each file  --> 
 	
@@ -36,10 +39,12 @@ Description of what this file does.
 
 * Files for this task: 
 <!--  List of file or files here  --> 
+[Wedge Project - Step 3.ipynb](https://github.com/SilentAccordion/BMKT670.V60-72020-Fall2022-Wedge-Project/blob/main/Wedge%20Project%20-%20Step%203.ipynb)
+
 
 Loads all data into GBQ data set.
 
-`File1 Name`: 
+`Wedge Project - Step 3.ipynb`: 
 Description of what this file does.
 
 <!--  Repeat for each file  --> 
