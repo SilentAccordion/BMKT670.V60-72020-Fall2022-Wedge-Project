@@ -13,7 +13,7 @@
 
 Loads all data into GBQ data set.
 
-`Wedge Project - Step 1.ipynb`: 
+`Wedge Project - Step 1.ipynb`: This is a jupyter notebook file which is able to complete all requirements for Task 1. The early cells in the notebook setup general Python and GBQ requirements, including modules and setting up the GBQ client. The code unzips the zip of zips, revealing more zips, which is also decompresses. Once done, it uses some very powerful multiprocessing to handle each csv file concurrently, allowing for unbelievable process and upload speed. Each CSV is checked for headers and delimiters, feed into a Pandas dataframe and cleaned up by setting column data types. Next each dataframe is pushed to GBQ. This entire process takes under 4 minutes, when run from a virtual machine inside of Google Cloud.
 Description of what this file does.
 
 <!--  Repeat for each file  --> 
@@ -29,8 +29,8 @@ Description of what this file does.
 
 Loads all data into GBQ data set.
 
-`Wedge Project - Step 2.ipynb`: 
-This is a jupyter notebook file which is able to complete all requirements for Task 1. The early cells in the notebook setup general Python and GBQ requirements, including modules and setting up the GBQ client. The code unzips the zip of zips, revealing more zips, which is also decompresses. Once done, it uses some very powerful multiprocessing to handle each csv file concurrently, allowing for unbelievable process and upload speed. Each CSV is checked for headers and delimiters, feed into a Pandas dataframe and cleaned up by setting column data types. Next each dataframe is pushed to GBQ. This entire process takes under 4 minutes, when run from a virtual machine inside of Google Cloud.
+`Wedge Project - Step 2.ipynb`: This is a jupyter notebook file which is able to complete all requirements for Task 1. The early cells in the notebook setup general Python and GBQ requirements, including modules and setting up the GBQ client. The code then queries GBQ for ALL orders from a short random list of card_no, downloading directly into a pandas dataframe. The dataframe is then written to the local hard drive.
+
 
 <!--  Repeat for each file  --> 
 	
