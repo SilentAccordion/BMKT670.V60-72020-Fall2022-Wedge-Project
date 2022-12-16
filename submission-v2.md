@@ -89,3 +89,10 @@ When calculating relative difference, use the formula
 ## Reflections
 
 <!-- I'd love to get 100-200 words on your experience doing the Wedge Project --> 
+
+The wedge project pushed near the edges of my comfort zone and allowed me to dive deeper into some of the new tools and techniques covered in class. Pandas is not something I’ve had the opportunity to use, as php lacks a lot of numerical libraries like Pandas, NumPy, and scikit. I really appreciate the simplicity of moving data around using Pandas, reading in from CSV, pushing out to GBQ and SQLite. I could see myself using these tools for some small scale analysis, if I didn’t have access to my traditional LAMP stack. 
+
+The struggle with the Wedge project, by the end of the semester, I was burnt out on Wedge Data. 5 Weeks of SQL queries, and some other assignments and I don’t want to see another Co-op store receipt ever. But I do appreciate having become comfortable with the Wedge data before starting on the project. It would have been a little more challenging to both complete the tasks and understand the data. Not sure how to balance these for future classes.
+
+What would I change? I would maybe break it up into 3 projects, due at points during the semester. I would like to see more data translation and cleanup. Changing values in columns based on other columns, or even adding columns before pushing to GBQ. It would be really fun to start looking at complete orders and trying to match them to recipes. Or do some market basket analysis with the data.
+
